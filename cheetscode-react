@@ -2,3 +2,6 @@ install react globally: npm install -g create-react-app
 create react app: npx create-react-app my-app
 create react app with pwa(service worker): npx create-react-app my-app --template cra-template-pwa
 to check unused dependenicies:npm install -g depcheck(1st) and depcheck
+start react app : npm start
+to add proxy : package.json--  "proxy": "http://18.133.142.150:7700",
+set port:   "start": "set PORT=3006 && react-scripts start",
