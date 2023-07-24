@@ -1,3 +1,4 @@
 install react globally: npm install -g create-react-app 
 create react app: npx create-react-app my-app
 create react app with pwa(service worker): npx create-react-app my-app --template cra-template-pwa
+to check unused dependenicies:npm install -g depcheck(1st) and depcheck
