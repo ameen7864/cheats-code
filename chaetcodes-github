@@ -11,6 +11,8 @@ git add .
 git commit -m "add me"
 git push -u origin main (-u: user)
 git log ( who were committed the codes)
-git show  <commit-id> what all the code had done by him git show 40digit code
+git show  <commit-id> what all the code had done by him
 git remote add origin (url)
-
+git .gitignore
+git log -1
+git log --grep "ignore" all words which is present in commit
