@@ -1,1 +1,16 @@
+which git 
+git --version
+git config --global user.name "ameen"
+git config --global user.email "ameen"
+git config --list  to see user
+git config --global --unset user.name
+git config --global --unset user.email
+git init
+git status
+git add .
+git commit -m "add me"
+git push -u origin main (-u: user)
+git log ( who were committed the codes)
+git show  <commit-id> what all the code had done by him git show 40digit code
+git remote add origin (url)
 
