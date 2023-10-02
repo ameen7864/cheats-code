@@ -16,3 +16,8 @@ git remote add origin (url)
 git .gitignore
 git log -1
 git log --grep "ignore" all words which is present in commit
+
+git remote remove origin
+git remote add origin https://[personal-access-token]@github.com/username/repo_name.git
+
+git remote add origin https://GITHUB_USERNAME:PERSONAL_ACCESS_TOKEN@github.com/GITHUB_USERNAME/REPO_NAME.git
