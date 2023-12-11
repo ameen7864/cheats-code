@@ -1,0 +1,6 @@
+nvm install latest
+To install the LTS version of Node, run: nvm install lts
+nvm list available
+nvm install 14.20.0
+nvm list
+nvm use node-version
